@@ -1,0 +1,179 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--&lt;!&ndash;<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:app="http://schemas.android.com/apk/res-auto"&ndash;&gt;-->
+<!--&lt;!&ndash;    xmlns:tools="http://schemas.android.com/tools"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;    tools:context=".MainActivity">&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <com.google.android.material.appbar.AppBarLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:theme="@style/Theme.MyApplication.AppBarOverlay">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <androidx.appcompat.widget.Toolbar&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/toolbar"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="?attr/actionBarSize"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="?attr/colorPrimary"&ndash;&gt;-->
+<!--&lt;!&ndash;            app:popupTheme="@style/Theme.MyApplication.PopupOverlay" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </com.google.android.material.appbar.AppBarLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <include layout="@layout/content_main" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <com.google.android.material.floatingactionbutton.FloatingActionButton&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/fab"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_gravity="bottom|end"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_margin="@dimen/fab_margin"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:srcCompat="@android:drawable/ic_dialog_email" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/button"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="255dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Button" />&ndash;&gt;-->
+
+<!--&lt;!&ndash;</androidx.coordinatorlayout.widget.CoordinatorLayout>&ndash;&gt;-->
+
+
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:layout_width="match_parent"-->
+<!--    tools:context=".MainActivity"-->
+<!--    android:orientation="vertical">-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/ll_1"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="vertical"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:padding="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#000000">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <View&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="#FF0033"&ndash;&gt;-->
+<!--&lt;!&ndash;            ></View>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="200dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:orientation="horizontal"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:background="#0066FF"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginLeft="15dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_marginRight="15dp"&ndash;&gt;-->
+
+<!--&lt;!&ndash;        >&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <View&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:background="#ffff00"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_weight="1">&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;        </View>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;        <View&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_width="0dp"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_height="match_parent"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:background="#FF0033"&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;            android:layout_weight="1">&ndash;&gt;&ndash;&gt;-->
+
+<!--&lt;!&ndash;&lt;!&ndash;        </View>&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;    </LinearLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/button2"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:onClick="handlesyp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="Button" />&ndash;&gt;-->
+<!--&lt;!&ndash;    <Button&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="100dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="100dp"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/open_url"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:text="@string/open_url"/>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;    <WebView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/webView1"/>&ndash;&gt;-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:orientation="vertical">-->
+
+<!--&lt;!&ndash;        <WebView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/webView1"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_weight="1"/>&ndash;&gt;-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50"-->
+<!--            android:orientation="vertical">-->
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:text="@string/closeE"/>-->
+<!--            <Button-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="70dp"-->
+<!--                android:text="@string/action_settings"/>-->
+
+<!--        </LinearLayout>-->
+
+
+<!--    </LinearLayout>-->
+<!--</LinearLayout>-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginBottom="7dp" />
+
+
+    <LinearLayout
+        android:layout_width="396dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:layout_weight="9"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="返回列表"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="保存日记"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

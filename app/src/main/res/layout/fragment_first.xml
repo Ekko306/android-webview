@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="安卓日记本(点击新增)"
+        android:layout_weight="9"
+        android:gravity="center"
+        android:textSize="29dp"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_orange_light"
+        android:clickable="true"
+        android:id="@+id/head"
+        >
+    </TextView>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        ></ListView>
+
+</LinearLayout>
